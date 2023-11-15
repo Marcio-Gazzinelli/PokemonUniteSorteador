@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.pokemonposicaolayout,
+.playerlayout,
+.nomeslayout {
+    border: 1px solid #ccc; /* Adicionado uma borda para criar uma divisão */
+    margin: 20px 0; /* Adicionado uma margem para separar as divs */
+    padding: 20px; /* Adicionado algum preenchimento para espaço interno */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#pokemon-name {
+    margin-top: 20px;
+}
+
+#pokemon-image {
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+.playerflex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.layout {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imagemplayer {
+    max-width: 100px;
+    margin-top: 10px;
+}
+
+.nomeslayout {
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+#nomesSorteados {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+#resultado {
+    margin-top: 20px;
+    margin-bottom: 20px; /* Adicionado para separar "Nomes Sorteados" do conteúdo abaixo */
+}
+
+
+label{
+    font-size: 140%;
+}
+/* Adicione estas regras CSS para centralizar o conteúdo no bloco "Sortear Pokémon" */
+#pokemon-name,
+#pokemon-image {
+    margin: 0 auto;
+    display: block;
+}
+
+#pokemon-name {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#pokemon-image {
+    max-width: 300px;
+    margin-top: 10px;
+}
+

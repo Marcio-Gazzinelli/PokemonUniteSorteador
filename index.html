@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sortear pokemon</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+  <div class="pokemonposicaolayout">
+
+    <h2>Sortear um Pokemon</h2>
+    <button id="toplaner-button">Toplaner</button>
+    <button id="suporte-button">Suporte</button>
+    <button id="jungler-button">Jungler</button>
+    <button id="carry-button">Carry</button>
+    <button id="tank-button">Tank</button>
+    <button id="random-button">Aleatório</button>
+    
+    <div>
+      <h2 id="pokemon-name"></h2>
+      <img id="pokemon-image" src="" alt="Pokemon Image">
+    </div>
+    <br>
+  </div>
+
+  <div class="playerlayout">
+  <h2>Sorteio de Posições e Pokémon</h2>
+  <button id="randomize-button">Sortear</button>
+  <div class="playerflex">
+      <div class="layout">
+          <div id="player-Player1"></div>
+          <div id="pokemon-Player1"></div>
+          <img id="pokemon-image-Player1" class="imagemplayer" src="" alt="">
+      </div>
+      <div class="layout">
+          <div id="player-Player2"></div>
+          <div id="pokemon-Player2"></div>
+          <img id="pokemon-image-Player2" class="imagemplayer" src="" alt="">
+      </div>
+      <div class="layout">
+          <div id="player-Player3"></div>
+          <div id="pokemon-Player3"></div>
+          <img id="pokemon-image-Player3" class="imagemplayer" src="" alt="">
+      </div>
+      <div class="layout">
+          <div id="player-Player4"></div>
+          <div id="pokemon-Player4"></div>
+          <img id="pokemon-image-Player4" class="imagemplayer" src="" alt="">
+      </div>
+      <div class="layout">
+          <div id="player-Player5"></div>
+          <div id="pokemon-Player5"></div>
+          <img id="pokemon-image-Player5" class="imagemplayer" src="" alt="">
+      </div>
+  </div>
+</div>
+
+
+  <div class="nomeslayout">
+    <form id="namesForm">
+      <h2>Sorteio de Quem Vai Jogar</h2>
+      <label>
+        <input type="checkbox" name="name" value="Gliscor">
+        Gliscor
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="name" value="Mentos">
+        Mentos
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="name" value="Pda">
+        Pda
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="name" value="Lectiz">
+        Lectiz
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="name" value="Aksen">
+        Aksen
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="name" value="Milk">
+        Milk
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="name" value="Vany">
+        Vany
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="name" value="Paiciel">
+        Paiciel
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="name" value="Pokelo">
+        Pokelo
+      </label>
+      <br>
+      <button type="button" onclick="sortearNomes()">Sortear Nomes</button>
+    </form>
+
+    <div id="resultado">
+      <h2>Nomes Sorteados:</h2>
+      <label id="nomesSorteados"></label>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+<!--  
+<a href="umpokemon.html">Um Pokemon</a>
+<a href="pokemonposicao.html">Pokemon Posição</a>
+<a href="playeruai.html">Player UAI</a>
+<a href="teste.html">Teste</a>
+-->  
+
+
+</body>
+</html>
