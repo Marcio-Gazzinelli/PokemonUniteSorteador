@@ -36,7 +36,7 @@ const pokemonList = [
   { name: "Mamoswine", image: "images/mamoswine.png", functions: ["tank"] },
   { name: "Mew", image: "images/mew.png", functions: ["carry"] },
   { name: "MewtwoX", image: "images/mewtwox.png", functions: ["toplaner", "jungler"] },
-  { name: "MewtwoY", image: "images/mewtwox.png", functions: ["jungler"] },
+  { name: "MewtwoY", image: "images/mewtwoy.png", functions: ["jungler"] },
   { name: "Mimikyu", image: "images/mimikyu.png", functions: ["toplaner", "jungler"] },
   { name: "Mr. Mime", image: "images/mr-mime.png", functions: ["tank"] },
   { name: "Ninetales", image: "images/ninetales.png", functions: ["carry"] },
